@@ -144,9 +144,9 @@
 \section{Certificates}
     %\resumeSubHeadingListStart
         \begin{itemize}
-            \item Entry-Level Cybersecurity Certificate - ISC2
+            \item Microsoft Security Operations Analyst SC-200 - Microsoft
             \vspace{-0.8em} \item Microsoft Security, Compliance and Identity Fundamentals SC-900 - Microsoft
-            \vspace{-0.8em} \item Microsoft Security Operations Analyst SC-200 - Microsoft
+            \vspace{-0.8em} \item  Entry-Level Cybersecurity Certificate - ISC2 
         \end{itemize}
     %\resumeSubHeadingListEnd
 \vspace{-16pt}
@@ -173,14 +173,20 @@
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Maryland}{Jun 2022 -- Present}
+      {Graduate IT Assistant}{College Park, MD}
+      \resumeItemListStart
+        \resumeItem{Investigate and manage the network for any compliance lapses and ensure patch management is enforced on all hosts.}
+        \resumeItem{Triage incoming tickets and provide technical support by resolving the incidents.}
+      \resumeItemListEnd
 
     \resumeSubheading
-      {University of Maryland}{Jan 2022 -- Present}
+      {University of Maryland}{Jan 2022 -- May 2022}
       {Teaching Assistant}{College Park, MD}
       \resumeItemListStart
         \resumeItem{Partnered with Prof. Nirupam Roy to implement suitable lessons for CMSC417-Computer Networks for 70 students.}
-        \resumeItem{Holding office hours with students to review materials, answer questions, and provide assistance on assignments.Also advised on curriculum changes.}
-        \resumeItem{Collaborated with a team of other TAs to provide a workshop on Socket Programming, Wireshark and to provide frequent and timely feedback to students.}
+        \resumeItem{Holding office hours with students to review materials, answer questions, and provide assistance on assignments.}
       \resumeItemListEnd
       
     \resumeSubheading
@@ -188,9 +194,8 @@
       {Software Development Intern}{Bangalore, India}
       \resumeItemListStart
         \resumeItem{Incorporated scripts using Python and Golang to automate QA Testing and perform Functionality and Load Testing.}
-        \resumeItem{Utilized AWS Codepipeline to provide a continuous integration service in order to automate the entire process of loading the latest build code and test files, running the tests, and generating a report of the results once per day.}
+        \resumeItem{Utilized AWS Codepipeline & Codebuild to provide a CI/CD solution that runs builds and generates reports.}
         \resumeItem{Lead the development of a cross-platform Chatbot using Golang and Python Boto3 library to carry out DevOps task on AWS Infrastructure from Microsoft Teams Bot Framework.}
-        \resumeItem{Adapted the system to solve automation pitfalls by creating a Healthcheck REST API to test the status of all services every 4 hours as a Cron job.}
      \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -200,13 +205,19 @@
 \section{Projects}
     \vspace{-5pt}
     \resumeSubHeadingListStart
-      \resumeProjectHeading
+    \resumeProjectHeading
+      {\textbf{Homelab} $|$ \emph{VMWare, pfsense, Kali Linux, Windows Server, Splunk, VLAN}  $|$ \href{https://github.com/shahnitav/HomeLab-Setup}{\underline{Project Link}}}{June 2022}
+     \resumeItemListStart
+        \resumeItem{Built and maintain a lab to test, upskill, and maintain an enterprise-grade environment.The lab uses a Hypervisor, pfsense, Security Onion, Splunk, Windows Server, Metasploitable machines, Kali Linux Attacker and more.}
+     \resumeItemListEnd
+      \vspace{-15pt}
+    \resumeProjectHeading
       {\textbf{Go Port Scanner} $|$ \emph{Go, Network Scanning}  $|$ \href{https://github.com/shahnitav/Go-Port-Scanner}{\underline{Project Link}}}{April 2022}
       \resumeItemListStart
         \resumeItem{Developed a fast and lightweight Port Scanner that uses multi-threading to scan multiple ports/hosts simultaneously using goroutines.}
         \resumeItem{Implemented Host Scanning using ICMP packets across the CIDR. Improved scanning speed by 50\% compared to NMap.}
       \resumeItemListEnd
-          \vspace{-30pt}
+     \vspace{-25pt}
       \resumeProjectHeading
           {\textbf{Advanced Exploitation Techniques for x86 Architecture} $|$ \emph{GDB, Assembly}  $|$ \href{https://gitfront.io/r/shahnitav/c524d0b3db1db73ae1f406265e8315b0b9b80c3e/advanced-exploitation-techniques-x86/}{\underline{Project Link}}}{December 2021}
          \resumeItemListStart
@@ -218,7 +229,6 @@
           {\textbf{Penetration Test - Masked DJ} $|$ \emph{Metasploit, NMap, JohnTheRipper} $|$ \href{https://gitfront.io/r/shahnitav/e3d67918719298da3b929039fce43ab2858932bb/penetration-testing-report/}{\underline{Project Link}}}{December 2021}
           \resumeItemListStart
             \resumeItem{Managed a team of 3 to perform Penetration Test and deliver a report to the Masked DJ to harden their system from any existing vulnerabilities.}
-            \resumeItem{Breached and was able to get persistence on all 4 machine in their infrastructure and retrieve confidential information from their AWS account.}
             \resumeItem{Used NMap for reconnaissance, MS17-010 Eternal blue in Metasploit and JohnTheRipper for privilege escalation and Metasploit for Living-Off-the-Land.}
           \resumeItemListEnd 
     \resumeSubHeadingListEnd
@@ -231,9 +241,9 @@
     \small{\item{
      \textbf{Languages}{: Python, Go, C, HTML/CSS, JavaScript, SQL, C++, Shell Scripting} \\
      \textbf{Scanning}{: Nmap, Wireshark, Nessus, Nikto, GDB, Snort} \\
-     \textbf{Exploitation}{: Burpsuite, Metasploit, Splunk} \\
+     \textbf{Exploitation}{: Burpsuite, Metasploit, Splunk, MITRE ATT\&CK, Adversary Emulation, Penetration Testing} \\
      \textbf{Technologies}{: AWS, Linux, Docker, Git, Jenkins, IAM, Azure, QA Testing} \\
-     \textbf{Security}{: Cryptography, Vulnerability Assessment, Threat Modeling, Reverse Engineering, Incident Response} \\
+     \textbf{Security}{: Cryptography, Vulnerability Assessment, Reverse Engineering, Incident Response, GRC} \\
     }}
  \end{itemize}
  \vspace{-16pt}
